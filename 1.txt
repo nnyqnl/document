@@ -8,7 +8,14 @@
 
 
 二、String,StringBuffer和StringBuild的区别
+	1：String是字符串常量，不可改变
+	2：StringBuffer和StringBuilder是字符串变量，可以对字符串进行操作
+		StringBuffer是线程安全的，但是速度慢；StringBuffer类里面的每个方法都被Synchronized修饰
+		StringBuilder是线程不安全的，但是速度快。
+		
+		
 三、java中的Exception和error的关系
+	
 四、重载和重写的区别
 五、java访问修饰符，及各自访问权限
 六、Object都有哪些方法，可以逐个研究一下
