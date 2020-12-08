@@ -1,10 +1,18 @@
-final关键字怎么使用，finally怎么使用，finalize是干什么用的
-String,StringBuffer和StringBuild的区别
-java中的Exception和error的关系
-重载和重写的区别
-java访问修饰符，及各自访问权限
-Object都有哪些方法，可以逐个研究一下
-面向对象的三大特性，说说你的理解
+一、final关键字怎么使用，finally怎么使用，finalize是干什么用的
+	1:final是Java中的修饰符，用来修饰类  方法  属性
+		被final修饰的类不能被继承；
+		被final修饰的方法不能被重写；
+		被final修饰的属性不可变（被final修饰的变量不可变，为常量）
+	2：finally是在异常处理中总是执行的，与try...catch连用
+	3：finalize是在垃圾收集器中回收对象之前调用的，用来对对象进行清理工作的。
+
+
+二、String,StringBuffer和StringBuild的区别
+三、java中的Exception和error的关系
+四、重载和重写的区别
+五、java访问修饰符，及各自访问权限
+六、Object都有哪些方法，可以逐个研究一下
+七、面向对象的三大特性，说说你的理解
 
 
 HashMap的键是不重复的，内部是通过什么方法保证的
