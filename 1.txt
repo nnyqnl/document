@@ -15,6 +15,24 @@
 		
 		
 三、java中的Exception和error的关系
+	1：Exception和error都是继承Throwable类，他们是不同异常情况的不同分类。
+	2：Exception是指程序运行过程中可以预测到发生的情况，并需要进行捕获，以进行相应的处理。
+	3：Error异常通常是程序运行过程中不可预测到的异常，绝大多数error异常的发生会导致程序处于非正常  不可恢复的状态。如 OutOfMemoryError
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 四、重载和重写的区别
 五、java访问修饰符，及各自访问权限
