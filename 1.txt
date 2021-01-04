@@ -16,27 +16,48 @@
 		
 三、java中的Exception和error的关系
 	1：Exception和error都是继承Throwable类，他们是不同异常情况的不同分类。
-	2：Exception是指程序运行过程中可以预测到发生的情况，并需要进行捕获，以进行相应的处理。
+	2：Exception是指程序运行过程中可以预测到发生的情况，并需要进行捕获，以进行相应的处理。如 NullPointException
 	3：Error异常通常是程序运行过程中不可预测到的异常，绝大多数error异常的发生会导致程序处于非正常  不可恢复的状态。如 OutOfMemoryError
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 	
 四、重载和重写的区别
+	1：重载（overload）是指在同一个类中存在方法名相同，但参数个数，类型，顺序至少有一个不同。重载方法的修饰符和返回值可以不同。
+	   重写（override）是指在子父类中方法名，参数列表必须相同，返回值范围必须小于等于父类；访问修饰符范围大于等于父类；如果父类的修饰符是private，则不能重写父类；
+						抛出异常范围小于等于父类。
+
+
+
 五、java访问修饰符，及各自访问权限
+					类        包        子类        其他包        
+	public：        V          V         V           V
+	default:		V          V         V           
+	protected：     V          V                    
+	private：       V                              
+	
+	protected和private不能修饰类；
+	public和default可以修饰任何类，且类名与方法名相同。
+
+
 六、Object都有哪些方法，可以逐个研究一下
+	1:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 七、面向对象的三大特性，说说你的理解
 
 
